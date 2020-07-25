@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- animate.css   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css"
+        integrity="sha512-kb1CHTNhoLzinkElTgWn246D6pX22xj8jFNKsDmVwIQo+px7n1yjJUZraVuR/ou6Kmgea4vZXZeUDbqKtXkEMg=="
+        crossorigin="anonymous" />
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-color">
+            <a class="navbar-brand ff" href="#"><img src="https://img.icons8.com/cotton/64/000000/coffee-to-go.png"
+                    class="mr-2" width="40%">Coffee</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link ff" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ff" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ff" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 head-content wow animate__animated animate__fadeInLeft">
+                    <h2 class="text-white">Coffee is the love</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim explicabo
+                        blanditiis
+                        doloremque ducimus minima perferendis totam perspiciatis iste maiores sed, in unde saepe odio!
+                        Nostrum facilis velit minima culpa magnam.</p>
+                    <p class="text-white">- Colt Steele</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- feature section -->
+    <section class="container feature">
+        <div class="row justify-content-between">
+            <div class="col-12 text-center">
+                <h2 class="feature-header">FEATURES</h2>
+            </div>
+            <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                <div class="card w-100 wow animate__animated animate__slideInLeft" style="width: 18rem;">
+                    <img src="images/img2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2>Great Art</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card w-100 wow animate__animated animate__slideInRight" style="width: 18rem;">
+                    <img src="images/img3.jpg" class="card-img-top beans-img" alt="...">
+                    <div class="card-body text-center">
+                        <h2>Great Beans</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section -->
+    <section class="review pt-5">
+        <div class="container">
+            <h2 class="text-center text-white font-weight-normal">REVIEWS</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 rounded-circle img-slide-center my-5">
+                                <img src="images/slide1.jpg" class="d-block rounded-circle img-slide" alt="...">
+                            </div>
+                            <div class="col-12 text-center">
+                                <h3>Rachel Green</h3>
+                            </div>
+                            <div class="col-12 text-center px-5 mb-3">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et cumque porro quas
+                                    aliquid iusto doloremque accusamus optio provident magnam.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12 rounded-circle my-5">
+                                <img src="images/slide3.jpg" class="d-block rounded-circle img-slide" alt="...">
+                            </div>
+                            <div class="col-12 text-center">
+                                <h3>Monica Geller</h3>
+                            </div>
+                            <div class="col-12 text-center px-5 mb-3">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi et cumque porro quas
+                                    aliquid iusto doloremque accusamus optio provident magnam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer mt-5 py-5">
+        <div class="container">
+            <div class="d-block d-sm-flex justify-content-center justify-content-sm-between">
+                <div class="text-white text-center text-sm-left align-self-center">
+                    <h2 class="font-weight-normal footer-logo mb-2">Coffee</h2>
+                    <p>Coffee is the love</p>
+                </div>
+                <div>
+                    <hr class="d-block d-sm-none">
+                </div>
+                <div class="text-white text-center text-sm-right">
+                    <h3>Address</h3>
+                    <hr class="d-none d-sm-block">
+                    <p>155, Saint george street</p>
+                    <p>San Fransisco, USA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center mt-3">
+        <p>Copyright&copy Meet kalani</p>
+    </section>
+
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!-- wow js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 120) {
+                    $(".head-content").css({ "opacity": "0" })
+                } else {
+                    $(".head-content").css({ "opacity": "1" })
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

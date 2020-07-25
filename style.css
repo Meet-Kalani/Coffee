@@ -1,0 +1,91 @@
+header{
+    background: url('images/img1.jpg') top;
+    background-size: cover;
+    height: 630px;
+}
+
+.ff{
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-color{
+    background:#ee5a5a;
+}
+
+.head-content{
+    margin-top: 220px;
+    transition:.5s;
+}
+
+.head-content p,
+.head-content h2{
+    text-shadow:0px 3px 7px #ee5a5a;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.feature{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.feature-header{
+    margin-bottom: 50px;
+}
+
+.card h2{
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.card{
+    background:#ee5a5a;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:white;
+}
+
+.beans-img{
+    height: 340px;
+}
+
+.review{
+    background:#ee5a5a;
+}
+
+.review .row{
+    color:white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.img-slide-center{
+    margin:0 auto;
+}
+
+
+.img-slide{
+    width: 300px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.footer{
+    background:url('images/img4.jpg') left;
+}
+
+.footer-logo{
+    font-family: 'Pacifico', cursive;
+    text-shadow:0px 2px 5px #ee5a5a;
+}
+
+.footer p,
+.footer h3{
+    text-shadow:0px 2px 5px #ee5a5a;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.footer h3{
+    font-size: x-large;
+}
+
+hr{
+    background: white;
+}
